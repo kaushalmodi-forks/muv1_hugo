@@ -1,3 +1,4 @@
 ---
+title: "Sunday"
 tags: [day]
 ---
