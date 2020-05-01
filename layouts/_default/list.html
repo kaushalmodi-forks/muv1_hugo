@@ -7,7 +7,11 @@
 
 <ul>
     {{ range .Pages }}
-        <li>{{ .Title }}</li>
+        <li><a href='{{ .Permalink }}'>{{ .Title }}</a></li>
     {{ end }}
 </ul>
 {{ .Content }}
+
+{{ with (.GetPage "talk") }}
+    <a href='{{ .Permalink }}'>{{ .Title }}</a>
+{{ end }}
