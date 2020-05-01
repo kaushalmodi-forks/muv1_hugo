@@ -1,0 +1,5 @@
+disableKinds:
+- RSS
+- sitemap
+taxonomies:
+   tag: tags
